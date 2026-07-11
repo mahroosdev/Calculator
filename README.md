@@ -1,46 +1,69 @@
-# Calculator Pro 🧮
+<div align="center">
 
-A fast, keyboard-friendly scientific calculator that runs entirely in the browser. No frameworks, no build step, no tracking — just `index.html`, `style.css`, and `script.js`.
+# 🧮 Calculator Pro
 
-**[Live demo →](#)** *(update this link once deployed — see below)*
+A modern calculator application built with **HTML, CSS, and Vanilla JavaScript**. It includes both Standard and Scientific modes, calculation history, theme switching, and offline support in a clean and responsive interface.
 
-## Features
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-- **Standard & Scientific modes** — trig (with DEG/RAD toggle), logs, powers, roots, factorial, constants
-- **Calculation history** — last 20 results, saved locally, click any entry to reuse it
-- **Memory keys** — MC / MR / MS
-- **Full keyboard support** — digits, `+ - * /`, `Enter`, `Backspace`, `Escape`, parentheses
-- **Light & dark themes**, remembered between visits
-- **Copy result** — click the display to copy the current value
-- Fully responsive, accessible (focus states, `prefers-reduced-motion` respected)
-- Everything persists locally via `localStorage` — nothing is sent anywhere
+</div>
 
-## Run it locally
+---
 
-Just open `index.html` in a browser — or serve it with any static server:
+# 📖 About
 
-```bash
-python3 -m http.server 8000
-# then visit http://localhost:8000
-```
+Calculator Pro is a lightweight calculator designed for everyday calculations and advanced mathematical operations. It provides a responsive interface with Standard and Scientific calculator modes, calculation history, theme switching, and local data storage without requiring any backend services.
 
-## Deploy to GitHub Pages
+---
 
-1. Create a new repository on GitHub and push these files to the `main` branch:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/<your-repo>.git
-   git push -u origin main
-   ```
-2. On GitHub, go to **Settings → Pages**.
-3. Under **Source**, select the `main` branch and `/ (root)` folder, then **Save**.
-4. Your site will be live in a minute or two at:
-   `https://<your-username>.github.io/<your-repo>/`
+# ✨ Features
 
-## License
+- 🧮 Standard calculator
+- 📐 Scientific calculator
+- 📜 Calculation history
+- 💾 Local storage persistence
+- 🌙 Dark and Light themes
+- 🧠 Memory functions
+- 📋 Copy calculation results
+- ⌨️ Keyboard support
+- 📱 Responsive design
+- 🌐 Fully offline
 
-MIT — see [LICENSE](LICENSE).
-# Calculator
+---
+
+# 🛠️ Tech Stack
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Local Storage API
+
+---
+
+# 🚀 Getting Started
+
+1. Clone or download the repository.
+2. Open the project folder.
+3. Launch `index.html` in your web browser.
+4. Start using the calculator.
+
+No installation or build tools are required.
+
+---
+
+# 📌 Project Highlights
+
+- Modern and responsive interface
+- Standard and Scientific modes
+- Fast and lightweight
+- Offline-first experience
+- Framework-free implementation
+- Easy to customize and extend
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
