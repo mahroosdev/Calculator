@@ -2,7 +2,7 @@
 
 # 🧮 Calculator Pro
 
-A modern calculator application built with **HTML, CSS, and Vanilla JavaScript**. It includes both Standard and Scientific modes, calculation history, theme switching, and offline support in a clean and responsive interface.
+A modern calculator application built with **HTML, CSS, JavaScript**. It includes both Standard and Scientific modes, calculation history, and offline support in a clean and responsive interface.
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
@@ -14,7 +14,7 @@ A modern calculator application built with **HTML, CSS, and Vanilla JavaScript**
 
 # 📖 About
 
-Calculator Pro is a lightweight calculator designed for everyday calculations and advanced mathematical operations. It provides a responsive interface with Standard and Scientific calculator modes, calculation history, theme switching, and local data storage without requiring any backend services.
+Calculator Pro is a lightweight calculator designed for everyday calculations and advanced mathematical operations. It provides a responsive interface with Standard and Scientific calculator modes, calculation history, and local data storage without requiring any backend services.
 
 ---
 
@@ -24,7 +24,6 @@ Calculator Pro is a lightweight calculator designed for everyday calculations an
 - 📐 Scientific calculator
 - 📜 Calculation history
 - 💾 Local storage persistence
-- 🌙 Dark and Light themes
 - 🧠 Memory functions
 - 📋 Copy calculation results
 - ⌨️ Keyboard support
