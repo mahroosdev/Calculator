@@ -10,20 +10,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-  <header id="topbar">
-    <span class="brand">CALC<span class="brand-accent">//</span>PRO</span>
-    <button class="theme-btn" onclick="toggleTheme()" id="theme-btn" title="Toggle theme" aria-label="Toggle light and dark theme">🌙</button>
-  </header>
-
-  <div id="toast" role="status" aria-live="polite"></div>
-
+  <style>
+    .page-header-row {
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+  </style>
   <main class="wrap">
 
     <div class="page-header animate-in">
-      <div class="row align" style="gap:10px;margin-bottom:8px">
+      <div class="row align page-header-row">
         <span class="header-icon" aria-hidden="true">🧮</span>
         <h1>Calculator Pro</h1>
         <span class="badge badge-accent">Scientific</span>
@@ -49,11 +45,11 @@
       </div>
 
       <div id="calc-std-pad" class="calc-pad calc-pad-std"></div>
-      <div id="calc-sci-pad" class="calc-pad calc-pad-sci" style="display:none"></div>
+      <div id="calc-sci-pad" class="calc-pad calc-pad-sci" hidden></div>
 
     </section>
 
-    <section style="margin-top:20px">
+    <section>
       <div class="section-title">
         History
         <button class="btn-clear-history" onclick="clearHistory()" title="Clear history" aria-label="Clear history">clear</button>
