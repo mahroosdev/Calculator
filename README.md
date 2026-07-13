@@ -60,9 +60,3 @@ No installation or build tools are required.
 - Offline-first experience
 - Framework-free implementation
 - Easy to customize and extend
-
----
-
-# 📄 License
-
-This project is licensed under the **MIT License**.
